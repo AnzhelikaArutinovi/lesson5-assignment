@@ -1,0 +1,60 @@
+/*header elements styles*/
+
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-li {
+	display: inline-block;
+}
+.logo {
+	vertical-align: middle;
+	margin-right: 150px;
+}
+.header-wraper { 
+	padding: 69px 0 69px 162px;
+	margin-bottom: 16.28px;
+	width: 1920px;
+}
+.active {
+	margin-right: 30px;
+}
+.nav-a {
+	font-size: 20px;
+	color: #274C5B;
+	font-family: 'Roboto'
+}
+
+/*Main elements styles*/
+
+/*.section {
+	width: 1920px;
+}*/
+.banner-block {
+	width: 1920px;
+	margin: 0 auto;
+	margin-bottom: 182px;
+}
+
+/*main photo block-ზე პრობლემა ჩნდება banner-block-ის გამო*/
+
+.main-photo-block {
+	width: 1400px;
+	margin: 0 auto;
+}
+.title {
+	color: #274C5B
+	font-size: 50px;
+	margin-bottom: 28px;
+}
+.desc-wraper {
+	width: 936px;
+	width: 936px;
+	margin:78px auto 70px auto;
+}
+.descr {
+	line-height: 29.77px;
+	font-size: 18px;
+	color: #525C60;
+	font-family: 'Open Sans';
+}
