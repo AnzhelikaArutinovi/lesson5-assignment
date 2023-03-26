@@ -22,39 +22,217 @@
 .nav-a {
 	font-size: 20px;
 	color: #274C5B;
-	font-family: 'Roboto'
+	font-family: 'Roboto';
+	font-weight: bold;
+	vertical-align: middle;
+}
+.vector-icon {
+	vertical-align: middle;
 }
 
-/*Main elements styles*/
+/*Independent Photos styles*/
 
-/*.section {
-	width: 1920px;
-}*/
-.banner-block {
-	width: 1920px;
-	margin: 0 auto;
-	margin-bottom: 182px;
+.bg-image {
+	width:100%;
 }
-
-/*main photo block-ზე პრობლემა ჩნდება banner-block-ის გამო*/
-
-.main-photo-block {
+.container-image {
 	width: 1400px;
 	margin: 0 auto;
 }
-.title {
-	color: #274C5B
-	font-size: 50px;
-	margin-bottom: 28px;
+.corner-img {
+	border-radius: 30px;
 }
-.desc-wraper {
-	width: 936px;
+
+/* Section Block styles */
+.section-block {
+	width: 1400px;
+	margin: 182px auto 60px auto;
+}
+.image {
+	width: 100%;
+}
+
+/* Description block elements styles */
+.descr-wraper {
 	width: 936px;
 	margin:78px auto 70px auto;
 }
-.descr {
+.title {
+	color: #274C5B;
+	font-size: 50px;
+	margin-bottom: 28px;
+	font-family: 'Roboto';
+	font-weight: 900; /* ვერ ვიპოვე Roboto 800, ამიტომ font-weight 900-ით ავტვირთე */
+	line-height: 58.59px;
+}
+.text1 {
 	line-height: 29.77px;
 	font-size: 18px;
 	color: #525C60;
 	font-family: 'Open Sans';
+	font-weight: normal;
+	margin-bottom: 18px;
+}
+.text2 {
+	line-height: 29.77px;
+	font-size: 18px;
+	color: #525C60;
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+/* "Why Organic" & "Speciality Produce" blocks elements */
+.block-wraper {
+	display: flex;
+	justify-content: space-between;
+	width: 936px;
+	margin: 0 auto;
+}
+.image-wraper {
+	width: 379px;
+}
+.block-image {
+	border-radius: 20px;
+}
+.text-block {
+	background-color: #F9F8F8;
+	width: 537px;
+	padding: 63px 45px;
+}
+.block-title {
+	font-family: 'Roboto';
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 29px;
+	color: #274C5B;
+	margin-bottom: 7px;
+}
+.block-content {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #525C60;
+}
+.first {
+	margin-bottom: 28px;
+}
+
+/* "We farm your land" block elements styles */
+.bottom-text-wraper {
+	width: 936px;
+	margin:70px auto 97px auto;
+}
+.bottom-text-title {
+	color: #274C5B;
+	font-size: 35px;
+	margin-bottom: 11px;
+	font-family: 'Roboto';
+	font-weight: 900; /* ვერ ვიპოვე Roboto 800, ამიტომ font-weight 900-ით ავტვირთე */
+	line-height: 41.02px;
+}
+.text3 {
+	line-height: 29.77px;
+	font-size: 18px;
+	color: #525C60;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	margin-bottom: 18px;
+}
+
+
+/*footer container elements styles*/
+.footer-container {
+	width: 1404px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* footer contact block styles */
+.block01 {
+	width: 285px;
+	height: 308px;
+}
+.block01-title {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	color:#274C5B;
+	margin-bottom: 33px;
+}
+.contact-li {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #525C60;
+}
+.contact-span {
+		font-family: 'Open Sans';
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 30px;
+		color: #525C60;
+}
+
+/* footer description block styles */
+.block-03 {
+	width: 285px;
+}
+.footer-info {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #525C60;
+	margin-top: 26.36px;
+}
+
+/* footer "Utility Pages" block styles */
+.block-02 {
+	width: 543px;
+	text-align: center;
+}
+.block03-title {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	color:#274C5B;
+	margin-bottom: 24px;
+}
+.pages-li {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 49px;
+	color: #525C60;
+	font-family: Open Sans;
+}
+
+/* below line elements styles */
+.copyright-block {
+	width: 699px;
+	text-align: center;
+	margin: 0 auto 23px auto;	
+}
+.copyright-text {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #525C60;
+}
+.copyright-span {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	line-height: 30px;
+	color: #525C60;
+	font-weight: bold;
+}
+.line {
+	border: 1px solid #D4D4D4;
+	margin: 61px 0 17px 0;
 }
