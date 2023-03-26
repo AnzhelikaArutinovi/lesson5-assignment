@@ -178,8 +178,9 @@
 }
 
 /* footer description block styles */
-.block-03 {
-	width: 285px;
+.block-02 {
+	width: 543px;
+	text-align: center;
 }
 .footer-info {
 	font-family: 'Open Sans';
@@ -191,9 +192,9 @@
 }
 
 /* footer "Utility Pages" block styles */
-.block-02 {
-	width: 543px;
-	text-align: center;
+
+.block-03 {
+	width: 285px;
 }
 .block03-title {
 	font-family: 'Roboto';
